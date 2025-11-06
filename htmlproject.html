@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live News App</title>
+  <link rel="stylesheet" href="projectstyle.css">
+</head>
+<body>
+  <header>
+    <h1>Live News App</h1>
+
+    <div class="filters">
+      <select id="category">
+        <option value="top">Top</option>
+        <option value="sports">Sports</option>
+        <option value="technology">Technology</option>
+        <option value="business">Business</option>
+        <option value="entertainment">Entertainment</option>
+        <option value="health">Health</option>
+        <option value="science">Science</option>
+      </select>
+
+      <select id="country">
+        <option value="in">🇮🇳 India</option>
+        <option value="us">🇺🇸 USA</option>
+        <option value="gb">🇬🇧 UK</option>
+        <option value="ca">🇨🇦 Canada</option>
+        <option value="au">🇦🇺 Australia</option>
+      </select>
+
+      <select id="language">
+        <option value="en">English</option>
+        <option value="hi">Hindi</option>
+        <option value="es">Spanish</option>
+        <option value="fr">French</option>
+        <option value="de">German</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="news-container"></main>
+
+  <script src="projectscript.js"></script>
+</body>
+</html>
